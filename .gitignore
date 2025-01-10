@@ -1,0 +1,52 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+
+# Distribution/build directories
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Log and debug files
+*.log
+debug.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Testing and coverage
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# Django specific
+*.sqlite3
+db.sqlite3
+/media/
+*.log
+
+# Environment variables and secrets
+.env
+*.env
+config/settings/local.py
